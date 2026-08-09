@@ -1,50 +1,134 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-excerpt: "About me"
+title: "About Me"
+seo_title: "Zhongrui Yu's Homepage"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am currently a Research Engineer at **Li Auto**.
+I received my master’s degree in Robotics from **ETH Zürich** and my bachelor’s degree from **Tongji University**.
+My research focuses on interactive and physically accurate world model for Autonomous Driving and Embodied AI.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Publications
+============
+{: #publications}
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<div class="publication-list">
+  <article class="publication-row">
+    <a class="publication-teaser" href="https://streetforward.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Open the StreetForward project page">
+      <img src="{{ '/images/publications/streetforward.png' | relative_url }}" alt="StreetForward feedforward causal reconstruction pipeline" loading="lazy">
+      <span class="publication-badge">ECCV</span>
+    </a>
+    <div class="publication-details">
+      <h3 class="publication-title"><a href="https://streetforward.github.io/" target="_blank" rel="noopener noreferrer">StreetForward: Perceiving Dynamic Street with Feedforward Causal Attention</a></h3>
+      <p class="publication-authors"><strong>Zhongrui Yu</strong>, Zhao Wang, Yijia Xie, Yida Wang, Xueyang Zhang, Yifei Zhan, Kun Zhan</p>
+      <p class="publication-venue"><em>ECCV 2026</em></p>
+      <p class="publication-links"><a href="https://arxiv.org/abs/2603.19552" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://streetforward.github.io/" target="_blank" rel="noopener noreferrer">Project Page</a><a href="https://github.com/yuzhongruicn/streetforward" target="_blank" rel="noopener noreferrer">Code</a></p>
+    </div>
+  </article>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+  <article class="publication-row">
+    <a class="publication-teaser" href="https://studios.disneyresearch.com/2025/05/23/unboxed-geometrically-and-temporally-consistent-video-outpainting/" target="_blank" rel="noopener noreferrer" aria-label="Open the Unboxed project page">
+      <img src="{{ '/images/publications/unboxed.jpg' | relative_url }}" alt="Unboxed video outpainting results" loading="lazy">
+      <span class="publication-badge">CVPR</span>
+    </a>
+    <div class="publication-details">
+      <h3 class="publication-title"><a href="https://studios.disneyresearch.com/2025/05/23/unboxed-geometrically-and-temporally-consistent-video-outpainting/" target="_blank" rel="noopener noreferrer">Unboxed: Geometrically and Temporally Consistent Video Outpainting</a></h3>
+      <p class="publication-authors"><strong>Zhongrui Yu</strong>, Martina Megaro-Boldini, Robert W. Sumner, Abdelaziz Djelouah</p>
+      <p class="publication-venue"><em>CVPR 2025</em></p>
+      <p class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Yu_Unboxed_Geometrically_and_Temporally_Consistent_Video_Outpainting_CVPR_2025_paper.pdf" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://studios.disneyresearch.com/2025/05/23/unboxed-geometrically-and-temporally-consistent-video-outpainting/" target="_blank" rel="noopener noreferrer">Project Page</a></p>
+    </div>
+  </article>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+  <article class="publication-row">
+    <a class="publication-teaser" href="https://ieeexplore.ieee.org/abstract/document/10944119" target="_blank" rel="noopener noreferrer" aria-label="Open the SGD paper page">
+      <img src="{{ '/images/publications/sgd.png' | relative_url }}" alt="SGD street view synthesis method and comparison" loading="lazy">
+      <span class="publication-badge">WACV</span>
+    </a>
+    <div class="publication-details">
+      <h3 class="publication-title"><a href="https://ieeexplore.ieee.org/abstract/document/10944119" target="_blank" rel="noopener noreferrer">SGD: Street View Synthesis with Gaussian Splatting and Diffusion Prior</a></h3>
+      <p class="publication-authors"><strong>Zhongrui Yu</strong>, Haoran Wang, Jinze Yang, Hanzhang Wang, Jiale Cao, Zhong Ji, Mingming Sun</p>
+      <p class="publication-venue"><em>WACV 2025</em></p>
+      <p class="publication-links"><a href="https://ieeexplore.ieee.org/abstract/document/10944119" target="_blank" rel="noopener noreferrer">Paper</a><a href="" target="_blank" rel="noopener noreferrer">Project Page</a></p>
+    </div>
+  </article>
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+  <article class="publication-row">
+    <a class="publication-teaser" href="https://fast-ldm.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Open the FAST project page">
+      <img src="{{ '/images/publications/fast_teaser.jpeg' | relative_url }}" alt="FAST arbitrary style transfer examples" loading="lazy">
+      <span class="publication-badge">TOMM</span>
+    </a>
+    <div class="publication-details">
+      <h3 class="publication-title"><a href="https://fast-ldm.github.io/" target="_blank" rel="noopener noreferrer">FAST: Flexibly Controllable Arbitrary Style Transfer via Latent Diffusion Models</a></h3>
+      <p class="publication-authors">Hanzhang Wang, Haoran Wang, <strong>Zhongrui Yu</strong>, Mingming Sun, Junjun Jiang, Xianming Liu, Deming Zhai</p>
+      <p class="publication-venue"><em>TOMM 2025</em></p>
+      <p class="publication-links"><a href="https://dl.acm.org/doi/full/10.1145/3748655" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://github.com/wd1511/FAST" target="_blank" rel="noopener noreferrer">Code</a></p>
+    </div>
+  </article>
+</div>
 
-**Markdown generator**
+Experience
+==========
+{: #experience}
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+<div class="cv-list">
+  <article class="cv-item">
+    <a class="cv-logo" href="https://www.liauto.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Li Auto website"><img src="{{ '/images/organizations/li-auto.png' | relative_url }}" alt="Li Auto logo"></a>
+    <div class="cv-details">
+      <div class="cv-heading">
+        <div class="cv-mainline"><strong><a href="https://www.liauto.com/" target="_blank" rel="noopener noreferrer">Li Auto</a></strong><span class="cv-separator">—</span><span class="cv-role">Research Engineer</span></div>
+        <span class="cv-date">04.2025 – Present</span>
+      </div>
+    </div>
+  </article>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+  <article class="cv-item">
+    <a class="cv-logo cv-logo--disney" href="https://studios.disneyresearch.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Disney Research Studios website"><img src="{{ '/images/organizations/disney-research.png' | relative_url }}" alt="Disney Research Studios logo"></a>
+    <div class="cv-details">
+      <div class="cv-heading">
+        <div class="cv-mainline"><strong><a href="https://studios.disneyresearch.com/" target="_blank" rel="noopener noreferrer">Disney Research&#124;Studios</a></strong><span class="cv-separator">—</span><span class="cv-role">Research Intern</span></div>
+        <span class="cv-date">04.2024 – 03.2025</span>
+      </div>
+      <p class="cv-note">Advised by <a href="https://adjelouah.github.io/" target="_blank" rel="noopener noreferrer">Dr. Abdelaziz Djelouah</a>, <a href="https://studios.disneyresearch.com/people/martina-megaro-boldini/" target="_blank" rel="noopener noreferrer">Martina Megaro-Boldini</a>, and <a href="https://people.inf.ethz.ch/~sumnerb/" target="_blank" rel="noopener noreferrer">Prof. Dr. Robert W. Sumner</a>.</p>
+    </div>
+  </article>
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+  <article class="cv-item">
+    <a class="cv-logo cv-logo--baidu" href="https://research.baidu.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Baidu Research website"><img src="{{ '/images/organizations/baidu.png' | relative_url }}" alt="Baidu logo"></a>
+    <div class="cv-details">
+      <div class="cv-heading">
+        <div class="cv-mainline"><strong><a href="https://research.baidu.com/" target="_blank" rel="noopener noreferrer">Baidu Research</a></strong><span class="cv-separator">—</span><span class="cv-role">Research Intern</span></div>
+        <span class="cv-date">09.2023 – 03.2024</span>
+      </div>
+    </div>
+  </article>
+</div>
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Education
+==========
+{: #Education}
+
+<div class="cv-list">
+  <article class="cv-item">
+    <a class="cv-logo cv-logo--eth" href="https://ethz.ch/" target="_blank" rel="noopener noreferrer" aria-label="Visit the ETH Zürich website"><img src="{{ '/images/organizations/eth-zurich.png' | relative_url }}" alt="ETH Zürich logo"></a>
+    <div class="cv-details">
+      <div class="cv-heading">
+        <div class="cv-mainline"><strong><a href="https://ethz.ch/" target="_blank" rel="noopener noreferrer">ETH Zürich</a></strong><span class="cv-separator">—</span><span class="cv-role">M.Sc. in Robotics, Systems and Control. Graduated with Distinction</span></div>
+        <span class="cv-date">2021 – 2024</span>
+      </div>
+    </div>
+  </article>
+
+  <article class="cv-item">
+    <a class="cv-logo" href="https://www.tongji.edu.cn/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Tongji University website"><img src="{{ '/images/organizations/tongji.png' | relative_url }}" alt="Tongji University logo"></a>
+    <div class="cv-details">
+      <div class="cv-heading">
+        <div class="cv-mainline"><strong><a href="https://www.tongji.edu.cn/" target="_blank" rel="noopener noreferrer">Tongji University</a></strong><span class="cv-separator">—</span><span class="cv-role">Bachelor's degree</span></div>
+        <span class="cv-date">2016 – 2021</span>
+      </div>
+    </div>
+  </article>
+</div>

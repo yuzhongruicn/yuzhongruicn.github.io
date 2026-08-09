@@ -39,3 +39,402 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+// Match the reference site's Crimson Pro type hierarchy.
+h1,
+h2 {
+  font-weight: 500;
+}
+
+h3,
+h4,
+h5,
+h6,
+strong,
+.masthead__menu-item--lg {
+  font-weight: 600;
+}
+
+// Keep only the three primary profile links beneath the avatar.
+.author-profile {
+  text-align: center;
+
+  .author__name {
+    margin: 0.75rem 0 0.5rem;
+    color: #043361;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.1;
+  }
+
+  .author__avatar {
+    display: block;
+    width: 88px;
+    height: 88px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #e3e7eb;
+    border-radius: 50%;
+    background: #eef1ef;
+
+    img {
+      width: 100%;
+      height: 100%;
+      max-width: none;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      object-fit: contain;
+      object-position: center;
+      transform: translate(3px, 10px) scale(1.3);
+    }
+  }
+
+  .author__avatar--default {
+    width: 76px;
+    height: 76px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      border-radius: 0;
+      object-position: center;
+      transform: none;
+    }
+  }
+}
+
+.author__urls-wrapper--icons {
+  display: block;
+  width: 100%;
+  cursor: default;
+}
+
+.author__urls--icons {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 0.25rem;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  list-style: none;
+  z-index: 1;
+
+  &:before,
+  &:after {
+    display: none;
+  }
+
+  li {
+    display: block;
+  }
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    color: #043361;
+    font-size: 1.15rem;
+    line-height: 1;
+    text-decoration: none;
+    transition: color 0.15s ease, transform 0.15s ease;
+    z-index: 2;
+
+    &:hover {
+      color: #069;
+      text-decoration: none;
+      transform: scale(1.15);
+    }
+  }
+
+  svg {
+    display: block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+  }
+}
+
+@include breakpoint($large) {
+  .author-profile .author__avatar {
+    width: 140px;
+    height: 140px;
+  }
+
+  .author-profile .author__avatar--default {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+// Compact timeline cards for experience and education.
+.cv-list {
+  margin: 0.75rem 0 1.25rem 0.65rem;
+}
+
+.cv-item {
+  display: grid;
+  grid-template-columns: 2.1rem minmax(0, 1fr);
+  align-items: center;
+  gap: 0.55rem;
+  margin-bottom: 0.65rem;
+}
+
+.cv-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  padding: 0.1rem;
+  overflow: hidden;
+  border: 1px solid #e3e7eb;
+  border-radius: 5px;
+  background: #fff;
+  text-decoration: none;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: 3px;
+    object-fit: contain;
+  }
+
+  &:hover {
+    border-color: rgba(0, 102, 153, 0.45);
+  }
+}
+
+.cv-logo--disney img {
+  transform: translateX(-2px);
+}
+
+.cv-logo--baidu img {
+  transform: scale(0.88);
+}
+
+.cv-logo--eth img {
+  transform: scale(1.12);
+}
+
+.cv-details {
+  min-width: 0;
+}
+
+.cv-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+
+  strong {
+    font-size: 0.92rem;
+
+    a {
+      color: #043361;
+      text-decoration: none;
+
+      &:hover {
+        color: #069;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.cv-mainline {
+  display: flex;
+  min-width: 0;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.08rem 0.32rem;
+  line-height: 1.3;
+}
+
+.cv-separator {
+  color: #8a929a;
+}
+
+.cv-role {
+  font-size: 0.82rem;
+}
+
+.cv-date {
+  flex: 0 0 auto;
+  padding: 0.06rem 0.34rem;
+  border-radius: 3px;
+  background: #f2f4f6;
+  color: #59636e;
+  font-family: $sans-serif;
+  font-size: 0.61rem;
+  font-weight: 600;
+  line-height: 1.45;
+  white-space: nowrap;
+}
+
+.page__content .cv-details .cv-note {
+  margin: 0.12rem 0 0;
+  color: #555;
+  font-size: 0.72rem;
+  line-height: 1.3;
+}
+
+@media (max-width: 520px) {
+  .cv-heading {
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.18rem 0.5rem;
+  }
+}
+
+// Publication cards follow the compact, image-first layout used by the reference site.
+.publication-list {
+  margin: 1.25rem 0 1.75rem 0.65rem;
+}
+
+.publication-row {
+  display: grid;
+  grid-template-columns: 10.25rem minmax(0, 1fr);
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.65rem;
+  overflow: visible;
+}
+
+.publication-teaser {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 7.1rem;
+  padding: 0.35rem;
+  overflow: visible;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  z-index: 1;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-fit: contain;
+  }
+
+  &:hover {
+    border-color: rgba(0, 102, 153, 0.35);
+  }
+}
+
+.publication-badge {
+  position: absolute;
+  top: 0.42rem;
+  left: -0.48rem;
+  padding: 0.18rem 0.72rem;
+  border-radius: 2px;
+  background: #043361;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.18), 0 1px 2px rgba(0, 0, 0, 0.12);
+  color: #fff;
+  font-family: $sans-serif;
+  font-size: 0.58rem;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+  z-index: 3;
+}
+
+.publication-details {
+  min-width: 0;
+}
+
+.page__content .publication-title {
+  margin: 0 0 0.28rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.2;
+
+  a {
+    color: #043361;
+    text-decoration: none;
+
+    &:hover {
+      color: #069;
+      text-decoration: underline;
+    }
+  }
+}
+
+.page__content .publication-authors,
+.page__content .publication-venue,
+.page__content .publication-links {
+  margin: 0 0 0.22rem;
+  font-size: 0.82rem;
+  line-height: 1.32;
+}
+
+.page__content .publication-venue {
+  color: #555;
+}
+
+.page__content .publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.42rem;
+
+  a {
+    display: inline-block;
+    padding: 0.12rem 0.45rem;
+    border: 1px solid #cfd7df;
+    border-radius: 3px;
+    color: #043361;
+    font-family: $sans-serif;
+    font-size: 0.62rem;
+    font-weight: 600;
+    line-height: 1.45;
+    text-decoration: none;
+
+    &:hover {
+      border-color: #069;
+      color: #069;
+      text-decoration: none;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .publication-row {
+    grid-template-columns: minmax(7.5rem, 32%) minmax(0, 1fr);
+    align-items: start;
+    gap: 0.85rem;
+  }
+
+  .publication-teaser {
+    height: 6rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .publication-row {
+    grid-template-columns: 1fr;
+  }
+
+  .publication-teaser {
+    max-width: 15rem;
+    height: 7.5rem;
+  }
+}
