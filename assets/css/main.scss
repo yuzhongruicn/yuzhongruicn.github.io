@@ -163,6 +163,10 @@ strong,
     height: 1em;
     fill: currentColor;
   }
+
+  .ai-google-scholar {
+    font-size: 1.2rem;
+  }
 }
 
 @include breakpoint($large) {
