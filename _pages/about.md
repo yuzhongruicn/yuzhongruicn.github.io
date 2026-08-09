@@ -97,7 +97,7 @@ Experience
   </article>
 
   <article class="cv-item">
-    <a class="cv-logo cv-logo--baidu" href="https://research.baidu.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Baidu Research website"><img src="{{ '/images/organizations/baidu.png' | relative_url }}" alt="Baidu logo"></a>
+    <a class="cv-logo cv-logo--baidu" href="https://research.baidu.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Baidu Research website"><img src="{{ '/images/organizations/baidu.svg' | relative_url }}" alt="Baidu logo"></a>
     <div class="cv-details">
       <div class="cv-heading">
         <div class="cv-mainline"><strong><a href="https://research.baidu.com/" target="_blank" rel="noopener noreferrer">Baidu Research</a></strong><span class="cv-separator">—</span><span class="cv-role">Research Intern</span></div>
@@ -105,6 +105,26 @@ Experience
       </div>
     </div>
   </article>
+
+  <article class="cv-item">
+    <a class="cv-logo cv-logo--eth" href="https://asl.ethz.ch/v4rl.html" target="_blank" rel="noopener noreferrer" aria-label="Visit the Vision for Robotics Lab website"><img src="{{ '/images/organizations/eth-zurich.png' | relative_url }}" alt="ETH Zürich logo"></a>
+    <div class="cv-details">
+      <div class="cv-heading">
+        <div class="cv-mainline"><strong><a href="https://asl.ethz.ch/v4rl.html" target="_blank" rel="noopener noreferrer">Vision for Robotics Lab, ETH Zürich</a></strong><span class="cv-separator">—</span><span class="cv-role">Semester Project Student</span></div>
+        <span class="cv-date">10.2022 – 05.2023</span>
+      </div>
+    </div>
+  </article>
+
+  <!-- <article class="cv-item">
+    <a class="cv-logo" href="https://www.brose.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Brose website"><img src="{{ '/images/organizations/brose.svg' | relative_url }}" alt="Brose logo"></a>
+    <div class="cv-details">
+      <div class="cv-heading">
+        <div class="cv-mainline"><strong><a href="https://www.brose.com/" target="_blank" rel="noopener noreferrer">Brose</a></strong><span class="cv-separator">—</span><span class="cv-role">Engineer Intern</span></div>
+        <span class="cv-date">12.2020 – 04.2021</span>
+      </div>
+    </div>
+  </article> -->
 </div>
 
 Education
@@ -126,7 +146,7 @@ Education
     <a class="cv-logo" href="https://www.tongji.edu.cn/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Tongji University website"><img src="{{ '/images/organizations/tongji.png' | relative_url }}" alt="Tongji University logo"></a>
     <div class="cv-details">
       <div class="cv-heading">
-        <div class="cv-mainline"><strong><a href="https://www.tongji.edu.cn/" target="_blank" rel="noopener noreferrer">Tongji University</a></strong><span class="cv-separator">—</span><span class="cv-role">Bachelor's degree</span></div>
+        <div class="cv-mainline"><strong><a href="https://www.tongji.edu.cn/" target="_blank" rel="noopener noreferrer">Tongji University</a></strong><span class="cv-separator">—</span><span class="cv-role">B.Sc. in Vehicle Engineering</span></div>
         <span class="cv-date">2016 – 2021</span>
       </div>
     </div>
