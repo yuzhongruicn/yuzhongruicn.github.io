@@ -136,9 +136,10 @@ Education
     <a class="cv-logo cv-logo--eth" href="https://ethz.ch/" target="_blank" rel="noopener noreferrer" aria-label="Visit the ETH Zürich website"><img src="{{ '/images/organizations/eth-zurich.png' | relative_url }}" alt="ETH Zürich logo"></a>
     <div class="cv-details">
       <div class="cv-heading">
-        <div class="cv-mainline"><strong><a href="https://ethz.ch/" target="_blank" rel="noopener noreferrer">ETH Zürich</a></strong><span class="cv-separator">—</span><span class="cv-role">M.Sc. in Robotics, Systems and Control. Graduated with Distinction</span></div>
+        <div class="cv-mainline"><strong><a href="https://ethz.ch/" target="_blank" rel="noopener noreferrer">ETH Zürich</a></strong><span class="cv-separator">—</span><span class="cv-role">M.Sc. in Robotics, Systems and Control</span></div>
         <span class="cv-date">2021 – 2024</span>
       </div>
+      <p class="cv-note">Graduated with Distinction.</p>
     </div>
   </article>
 
@@ -149,6 +150,7 @@ Education
         <div class="cv-mainline"><strong><a href="https://www.tongji.edu.cn/" target="_blank" rel="noopener noreferrer">Tongji University</a></strong><span class="cv-separator">—</span><span class="cv-role">B.Sc. in Vehicle Engineering</span></div>
         <span class="cv-date">2016 – 2021</span>
       </div>
+      <p class="cv-note">Outstanding Graduate of Shanghai City. Scholarship of Shanghai City.</p>
     </div>
   </article>
 </div>
