@@ -39,7 +39,7 @@ Publications
       <h3 class="publication-title"><a href="https://studios.disneyresearch.com/2025/05/23/unboxed-geometrically-and-temporally-consistent-video-outpainting/" target="_blank" rel="noopener noreferrer">Unboxed: Geometrically and Temporally Consistent Video Outpainting</a></h3>
       <p class="publication-authors"><strong>Zhongrui Yu</strong>, Martina Megaro-Boldini, Robert W. Sumner, Abdelaziz Djelouah</p>
       <p class="publication-venue"><em>CVPR 2025</em></p>
-      <p class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Yu_Unboxed_Geometrically_and_Temporally_Consistent_Video_Outpainting_CVPR_2025_paper.pdf" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://studios.disneyresearch.com/2025/05/23/unboxed-geometrically-and-temporally-consistent-video-outpainting/" target="_blank" rel="noopener noreferrer">Project Page</a></p>
+      <p class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Yu_Unboxed_Geometrically_and_Temporally_Consistent_Video_Outpainting_CVPR_2025_paper.pdf" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://studios.disneyresearch.com/2025/05/23/unboxed-geometrically-and-temporally-consistent-video-outpainting/" target="_blank" rel="noopener noreferrer">Project Page</a><a href="{{ '/files/poster_unboxed_cvpr25.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Poster</a></p>
     </div>
   </article>
 
