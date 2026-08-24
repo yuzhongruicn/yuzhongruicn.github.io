@@ -52,7 +52,7 @@ Publications
       <h3 class="publication-title"><a href="https://ieeexplore.ieee.org/abstract/document/10944119" target="_blank" rel="noopener noreferrer">SGD: Street View Synthesis with Gaussian Splatting and Diffusion Prior</a></h3>
       <p class="publication-authors"><strong>Zhongrui Yu</strong>, Haoran Wang, Jinze Yang, Hanzhang Wang, Jiale Cao, Zhong Ji, Mingming Sun</p>
       <p class="publication-venue"><em>WACV 2025</em></p>
-      <p class="publication-links"><a href="https://ieeexplore.ieee.org/abstract/document/10944119" target="_blank" rel="noopener noreferrer">Paper</a><a href="" target="_blank" rel="noopener noreferrer">Project Page</a></p>
+      <p class="publication-links"><a href="https://ieeexplore.ieee.org/abstract/document/10944119" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://youtu.be/JiSjqfsCxg4" target="_blank" rel="noopener noreferrer">Video</a></p>
     </div>
   </article>
 
