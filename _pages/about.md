@@ -107,11 +107,21 @@ Experience
   </article>
 
   <article class="cv-item">
+    <a class="cv-logo cv-logo--asl" href="https://asl.ethz.ch/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Autonomous Systems Lab website"><img src="https://projects.asl.ethz.ch/assets/img/logo.png" alt="Autonomous Systems Lab logo"></a>
+    <div class="cv-details">
+      <div class="cv-heading">
+        <div class="cv-mainline"><strong><a href="https://asl.ethz.ch/" target="_blank" rel="noopener noreferrer">Autonomous Systems Lab, ETH Zürich</a></strong><span class="cv-separator">—</span><span class="cv-role">Research Assistant</span></div>
+        <span class="cv-date">03.2023 – 08.2023</span>
+      </div>
+    </div>
+  </article>
+
+  <article class="cv-item">
     <a class="cv-logo cv-logo--eth" href="https://asl.ethz.ch/v4rl.html" target="_blank" rel="noopener noreferrer" aria-label="Visit the Vision for Robotics Lab website"><img src="{{ '/images/organizations/eth-zurich.png' | relative_url }}" alt="ETH Zürich logo"></a>
     <div class="cv-details">
       <div class="cv-heading">
         <div class="cv-mainline"><strong><a href="https://asl.ethz.ch/v4rl.html" target="_blank" rel="noopener noreferrer">Vision for Robotics Lab, ETH Zürich</a></strong><span class="cv-separator">—</span><span class="cv-role">Semester Project Student</span></div>
-        <span class="cv-date">10.2022 – 05.2023</span>
+        <span class="cv-date">10.2022 – 02.2023</span>
       </div>
     </div>
   </article>
