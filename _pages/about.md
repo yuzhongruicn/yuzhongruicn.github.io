@@ -18,6 +18,19 @@ Publications
 
 <div class="publication-list">
   <article class="publication-row">
+    <a class="publication-teaser" href="https://machembodied.com/ME-Brain/ME-Brain-1.0.html" target="_blank" rel="noopener noreferrer" aria-label="Open the ME-Brain-1.0 project page">
+      <img src="{{ '/images/publications/me-brain-1.0.png' | relative_url }}" alt="ME-Brain-1.0 memory, cognition, and action architecture" loading="lazy">
+      <span class="publication-badge">Tech Report</span>
+    </a>
+    <div class="publication-details">
+      <h3 class="publication-title"><a href="https://machembodied.com/ME-Brain/ME-Brain-1.0.html" target="_blank" rel="noopener noreferrer">ME-Brain-1.0: Memory, Cognition and Action for Evolving Embodied Intelligence</a></h3>
+      <p class="publication-authors">Foundation Model, Li Auto Inc.</p>
+      <p class="publication-venue"><em>Technical Report, 2026</em></p>
+      <p class="publication-links"><a href="https://arxiv.org/abs/2609.24271" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://machembodied.com/ME-Brain/ME-Brain-1.0.html" target="_blank" rel="noopener noreferrer">Project Page</a><a href="https://github.com/MachEmbodied/ME-Brain-1.0" target="_blank" rel="noopener noreferrer">Code</a></p>
+    </div>
+  </article>
+
+  <article class="publication-row">
     <a class="publication-teaser" href="https://streetforward.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Open the StreetForward project page">
       <img src="{{ '/images/publications/streetforward.png' | relative_url }}" alt="StreetForward feedforward causal reconstruction pipeline" loading="lazy">
       <span class="publication-badge">ECCV</span>
