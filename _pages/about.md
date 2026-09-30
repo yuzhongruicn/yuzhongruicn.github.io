@@ -140,6 +140,17 @@ Experience
     </div>
   </article>
 
+  <article class="cv-item">
+    <a class="cv-logo cv-logo--tju-racing" href="http://www.tjuracing.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Tongji Racing Team website"><img src="{{ '/images/organizations/tju-racing-icon.png' | relative_url }}" alt="Tongji Racing Team website icon"></a>
+    <div class="cv-details">
+      <div class="cv-heading">
+        <div class="cv-mainline"><strong><a href="http://www.tjuracing.com/" target="_blank" rel="noopener noreferrer">Tongji Racing Team</a></strong><span class="cv-separator">—</span><span class="cv-role">Powertrain Team Member</span></div>
+        <span class="cv-date">2018 – 2019</span>
+      </div>
+      <p class="cv-note">Champion, 10th Formula Student China;&nbsp;&nbsp;Third Place, 17th Formula SAE Japan.</p>
+    </div>
+  </article>
+
   <!-- <article class="cv-item">
     <a class="cv-logo" href="https://www.brose.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Brose website"><img src="{{ '/images/organizations/brose.svg' | relative_url }}" alt="Brose logo"></a>
     <div class="cv-details">
