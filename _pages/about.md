@@ -116,6 +116,7 @@ Experience
         <div class="cv-mainline"><strong><a href="https://research.baidu.com/" target="_blank" rel="noopener noreferrer">Baidu Research</a></strong><span class="cv-separator">—</span><span class="cv-role">Research Intern</span></div>
         <span class="cv-date">09.2023 – 03.2024</span>
       </div>
+      <p class="cv-note">Advised by <a href="https://scholar.google.com/citations?user=xfnL2IEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Dr. Haoran Wang</a>.</p>
     </div>
   </article>
 
@@ -173,7 +174,7 @@ Education
         <div class="cv-mainline"><strong><a href="https://www.tongji.edu.cn/" target="_blank" rel="noopener noreferrer">Tongji University</a></strong><span class="cv-separator">—</span><span class="cv-role">B.Sc. in Vehicle Engineering</span></div>
         <span class="cv-date">2016 – 2021</span>
       </div>
-      <p class="cv-note">Outstanding Graduate of Shanghai City. Scholarship of Shanghai City.</p>
+      <p class="cv-note">Outstanding Graduate of Shanghai City;&nbsp;&nbsp;Scholarship of Shanghai City.</p>
     </div>
   </article>
 </div>
