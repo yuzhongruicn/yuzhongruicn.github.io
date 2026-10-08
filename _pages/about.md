@@ -92,8 +92,8 @@ Experience
     <a class="cv-logo" href="https://www.liauto.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Li Auto website"><img src="{{ '/images/organizations/li-auto.png' | relative_url }}" alt="Li Auto logo"></a>
     <div class="cv-details">
       <div class="cv-heading">
-        <div class="cv-mainline"><strong><a href="https://www.liauto.com/" target="_blank" rel="noopener noreferrer">Li Auto</a></strong><span class="cv-separator">—</span><span class="cv-role">Research Engineer</span><span class="cv-location">· Beijing, China</span></div>
-        <span class="cv-date">04.2025 – Present</span>
+        <div class="cv-primary"><div class="cv-mainline"><strong><a href="https://www.liauto.com/" target="_blank" rel="noopener noreferrer">Li Auto</a></strong><span class="cv-separator">—</span><span class="cv-role">Research Engineer</span></div></div>
+        <div class="cv-meta"><span class="cv-date">04.2025 – Present</span><span class="cv-location">Beijing, China</span></div>
       </div>
     </div>
   </article>
@@ -102,10 +102,12 @@ Experience
     <a class="cv-logo cv-logo--disney" href="https://studios.disneyresearch.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Disney Research Studios website"><img src="{{ '/images/organizations/disney-research.png' | relative_url }}" alt="Disney Research Studios logo"></a>
     <div class="cv-details">
       <div class="cv-heading">
-        <div class="cv-mainline"><strong><a href="https://studios.disneyresearch.com/" target="_blank" rel="noopener noreferrer">Disney Research&#124;Studios</a></strong><span class="cv-separator">—</span><span class="cv-role">Research Intern</span><span class="cv-location">· Zürich, Switzerland</span></div>
-        <span class="cv-date">04.2024 – 03.2025</span>
+        <div class="cv-primary">
+          <div class="cv-mainline"><strong><a href="https://studios.disneyresearch.com/" target="_blank" rel="noopener noreferrer">Disney Research&#124;Studios</a></strong><span class="cv-separator">—</span><span class="cv-role">Research Intern</span></div>
+          <p class="cv-note">Advised by <a href="https://adjelouah.github.io/" target="_blank" rel="noopener noreferrer">Dr. Abdelaziz Djelouah</a>, <a href="https://studios.disneyresearch.com/people/martina-megaro-boldini/" target="_blank" rel="noopener noreferrer">Martina Megaro-Boldini</a>, and <a href="https://people.inf.ethz.ch/~sumnerb/" target="_blank" rel="noopener noreferrer">Prof. Dr. Robert W. Sumner</a>.</p>
+        </div>
+        <div class="cv-meta"><span class="cv-date">04.2024 – 03.2025</span><span class="cv-location">Zürich, Switzerland</span></div>
       </div>
-      <p class="cv-note">Advised by <a href="https://adjelouah.github.io/" target="_blank" rel="noopener noreferrer">Dr. Abdelaziz Djelouah</a>, <a href="https://studios.disneyresearch.com/people/martina-megaro-boldini/" target="_blank" rel="noopener noreferrer">Martina Megaro-Boldini</a>, and <a href="https://people.inf.ethz.ch/~sumnerb/" target="_blank" rel="noopener noreferrer">Prof. Dr. Robert W. Sumner</a>.</p>
     </div>
   </article>
 
@@ -113,10 +115,12 @@ Experience
     <a class="cv-logo cv-logo--baidu" href="https://research.baidu.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Baidu Research website"><img src="{{ '/images/organizations/baidu.svg' | relative_url }}" alt="Baidu logo"></a>
     <div class="cv-details">
       <div class="cv-heading">
-        <div class="cv-mainline"><strong><a href="https://research.baidu.com/" target="_blank" rel="noopener noreferrer">Baidu Research</a></strong><span class="cv-separator">—</span><span class="cv-role">Research Intern</span><span class="cv-location">· Beijing, China</span></div>
-        <span class="cv-date">09.2023 – 03.2024</span>
+        <div class="cv-primary">
+          <div class="cv-mainline"><strong><a href="https://research.baidu.com/" target="_blank" rel="noopener noreferrer">Baidu Research</a></strong><span class="cv-separator">—</span><span class="cv-role">Research Intern</span></div>
+          <p class="cv-note">Advised by <a href="https://scholar.google.com/citations?user=xfnL2IEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Dr. Haoran Wang</a>.</p>
+        </div>
+        <div class="cv-meta"><span class="cv-date">09.2023 – 03.2024</span><span class="cv-location">Beijing, China</span></div>
       </div>
-      <p class="cv-note">Advised by <a href="https://scholar.google.com/citations?user=xfnL2IEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Dr. Haoran Wang</a>.</p>
     </div>
   </article>
 
@@ -124,8 +128,8 @@ Experience
     <a class="cv-logo cv-logo--eth" href="https://asl.ethz.ch/v4rl.html" target="_blank" rel="noopener noreferrer" aria-label="Visit the Vision for Robotics Lab website"><img src="{{ '/images/organizations/eth-zurich.png' | relative_url }}" alt="ETH Zürich logo"></a>
     <div class="cv-details">
       <div class="cv-heading">
-        <div class="cv-mainline"><strong><a href="https://asl.ethz.ch/v4rl.html" target="_blank" rel="noopener noreferrer">Vision for Robotics Lab, ETH Zürich</a></strong><span class="cv-separator">—</span><span class="cv-role">Semester Project Student</span><span class="cv-location">· Zürich, Switzerland</span></div>
-        <span class="cv-date">10.2022 – 02.2023</span>
+        <div class="cv-primary"><div class="cv-mainline"><strong><a href="https://asl.ethz.ch/v4rl.html" target="_blank" rel="noopener noreferrer">Vision for Robotics Lab, ETH Zürich</a></strong><span class="cv-separator">—</span><span class="cv-role">Semester Project Student</span></div></div>
+        <div class="cv-meta"><span class="cv-date">10.2022 – 02.2023</span><span class="cv-location">Zürich, Switzerland</span></div>
       </div>
     </div>
   </article>
@@ -134,8 +138,8 @@ Experience
     <a class="cv-logo" href="https://www.brose.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Brose website"><img src="{{ '/images/organizations/brose.svg' | relative_url }}" alt="Brose logo"></a>
     <div class="cv-details">
       <div class="cv-heading">
-        <div class="cv-mainline"><strong><a href="https://www.brose.com/" target="_blank" rel="noopener noreferrer">Brose</a></strong><span class="cv-separator">—</span><span class="cv-role">Engineer Intern</span><span class="cv-location">· Shanghai, China</span></div>
-        <span class="cv-date">12.2020 – 04.2021</span>
+        <div class="cv-primary"><div class="cv-mainline"><strong><a href="https://www.brose.com/" target="_blank" rel="noopener noreferrer">Brose</a></strong><span class="cv-separator">—</span><span class="cv-role">Engineer Intern</span></div></div>
+        <div class="cv-meta"><span class="cv-date">12.2020 – 04.2021</span><span class="cv-location">Shanghai, China</span></div>
       </div>
     </div>
   </article>
@@ -144,10 +148,12 @@ Experience
     <a class="cv-logo cv-logo--tju-racing" href="http://www.tjuracing.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Tongji Racing Team website"><img src="{{ '/images/organizations/tju-racing-icon.png' | relative_url }}" alt="Tongji Racing Team website icon"></a>
     <div class="cv-details">
       <div class="cv-heading">
-        <div class="cv-mainline"><strong><a href="http://www.tjuracing.com/" target="_blank" rel="noopener noreferrer">Tongji Racing Team</a></strong><span class="cv-separator">—</span><span class="cv-role">Powertrain Team Member</span><span class="cv-location">· Shanghai, China</span></div>
-        <span class="cv-date">2018 – 2019</span>
+        <div class="cv-primary">
+          <div class="cv-mainline"><strong><a href="http://www.tjuracing.com/" target="_blank" rel="noopener noreferrer">Tongji Racing Team</a></strong><span class="cv-separator">—</span><span class="cv-role">Powertrain Team Member</span></div>
+          <p class="cv-note">Champion, 10th Formula Student China;&nbsp;&nbsp;Third Place, 17th Formula SAE Japan.</p>
+        </div>
+        <div class="cv-meta"><span class="cv-date">2017 – 2019</span><span class="cv-location">Shanghai, China</span></div>
       </div>
-      <p class="cv-note">Champion, 10th Formula Student China;&nbsp;&nbsp;Third Place, 17th Formula SAE Japan.</p>
     </div>
   </article>
 
