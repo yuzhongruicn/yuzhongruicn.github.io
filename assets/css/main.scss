@@ -228,10 +228,6 @@ strong,
   transform: scale(1.2);
 }
 
-.cv-logo--asl img {
-  transform: scale(0.95);
-}
-
 .cv-logo--tju-racing img {
   transform: scale(0.7);
 }
@@ -276,6 +272,12 @@ strong,
 
 .cv-role {
   font-size: 0.82rem;
+}
+
+.cv-location {
+  color: #70777f;
+  font-size: 0.72rem;
+  white-space: nowrap;
 }
 
 .cv-date {
