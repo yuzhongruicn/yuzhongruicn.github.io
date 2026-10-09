@@ -78,7 +78,7 @@ Publications
       <h3 class="publication-title"><a href="https://fast-ldm.github.io/" target="_blank" rel="noopener noreferrer">FAST: Flexibly Controllable Arbitrary Style Transfer via Latent Diffusion Models</a></h3>
       <p class="publication-authors">Hanzhang Wang, Haoran Wang, <strong>Zhongrui Yu</strong>, Mingming Sun, Junjun Jiang, Xianming Liu, Deming Zhai</p>
       <p class="publication-venue"><em>TOMM 2025</em></p>
-      <p class="publication-links"><a href="https://dl.acm.org/doi/full/10.1145/3748655" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://github.com/wd1511/FAST" target="_blank" rel="noopener noreferrer">Code</a></p>
+      <p class="publication-links"><a href="https://dl.acm.org/doi/full/10.1145/3748655" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://fast-ldm.github.io/" target="_blank" rel="noopener noreferrer">Project Page</a><a href="https://github.com/wd1511/FAST" target="_blank" rel="noopener noreferrer">Code</a></p>
     </div>
   </article>
 </div>
