@@ -81,6 +81,19 @@ Publications
       <p class="publication-links"><a href="https://dl.acm.org/doi/full/10.1145/3748655" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://fast-ldm.github.io/" target="_blank" rel="noopener noreferrer">Project Page</a><a href="https://github.com/wd1511/FAST" target="_blank" rel="noopener noreferrer">Code</a></p>
     </div>
   </article>
+
+  <article class="publication-row publication-row--separated">
+    <a class="publication-teaser" href="https://zju3dv.github.io/ScaleNav/" target="_blank" rel="noopener noreferrer" aria-label="Open the ScaleNav project page">
+      <img src="https://zju3dv.github.io/ScaleNav/assets/teaser.png" alt="ScaleNav transfers navigation priors learned from Internet videos to robot actions" loading="lazy">
+      <span class="publication-badge">arXiv</span>
+    </a>
+    <div class="publication-details">
+      <h3 class="publication-title"><a href="https://zju3dv.github.io/ScaleNav/" target="_blank" rel="noopener noreferrer">ScaleNav: Scalable Internet Video Pretraining for Language-Conditioned Local Navigation</a></h3>
+      <p class="publication-authors">Yihui Yang, Yuanhong Yu, Jiawei Wang, <strong>Zhongrui Yu</strong>, Jia Shi, Kun Zhan, Ruizhen Hu, Xiaowei Zhou, Yu Liu, Sida Peng</p>
+      <p class="publication-venue"><em>arXiv, 2026</em></p>
+      <p class="publication-links"><a href="https://arxiv.org/abs/2610.25690" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://zju3dv.github.io/ScaleNav/" target="_blank" rel="noopener noreferrer">Project Page</a><a href="https://github.com/MachEmbodied/ScaleNav" target="_blank" rel="noopener noreferrer">Code</a></p>
+    </div>
+  </article>
 </div>
 
 Experience

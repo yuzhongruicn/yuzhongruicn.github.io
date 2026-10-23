@@ -334,6 +334,11 @@ strong,
   overflow: visible;
 }
 
+.publication-row--separated {
+  border-top: 1px solid #e8eaed;
+  padding-top: 1.25rem;
+}
+
 .publication-teaser {
   display: block;
   position: relative;
