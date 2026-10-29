@@ -129,7 +129,7 @@ Experience
     <div class="cv-details">
       <div class="cv-heading">
         <div class="cv-primary">
-          <div class="cv-mainline"><strong><a href="https://studios.disneyresearch.com/" target="_blank" rel="noopener noreferrer">Disney Research&#124;Studios</a></strong><span class="cv-separator">—</span><span class="cv-role">Master Thesis Student &amp; Research Intern</span></div>
+          <div class="cv-mainline"><strong><a href="https://studios.disneyresearch.com/" target="_blank" rel="noopener noreferrer">Disney Research&#124;Studios</a></strong><span class="cv-separator">—</span><span class="cv-role">Research Student</span></div>
           <p class="cv-note">Advised by <a href="https://adjelouah.github.io/" target="_blank" rel="noopener noreferrer">Dr. Abdelaziz Djelouah</a>, <a href="https://studios.disneyresearch.com/people/martina-megaro-boldini/" target="_blank" rel="noopener noreferrer">Martina Megaro-Boldini</a>, and <a href="https://people.inf.ethz.ch/~sumnerb/" target="_blank" rel="noopener noreferrer">Prof. Dr. Robert W. Sumner</a>.</p>
         </div>
         <div class="cv-meta"><span class="cv-date">04.2024 – 03.2025</span><span class="cv-location">Zürich, Switzerland</span></div>
