@@ -83,6 +83,19 @@ Publications
   </article>
 
   <article class="publication-row publication-row--separated">
+    <div class="publication-teaser publication-teaser--diffsim">
+      <img src="{{ '/images/publications/diffsim-occsim.png' | relative_url }}" alt="Diffusion trajectory simulation results across two crossroad scenarios" loading="lazy">
+      <span class="publication-badge">arXiv</span>
+    </div>
+    <div class="publication-details">
+      <h3 class="publication-title"><span>Diffusion Trajectory Simulation via Continuous Latent Representations</span></h3>
+      <p class="publication-authors">Derun Li, Jiahao Gu, Jianwei Ren, Weicheng Zheng, <strong>Zhongrui Yu</strong>, Yida Wang, Xueyang Zhang, Kun Zhan, Yifei Zhan, Ningyi Xu, Hang Zhao</p>
+      <p class="publication-venue"><em>arXiv 2025</em></p>
+      <p class="publication-links"><a href="{{ '/' | relative_url }}">Paper</a><a href="https://youtu.be/b8ubZYjUJso" target="_blank" rel="noopener noreferrer">Video</a></p>
+    </div>
+  </article>
+
+  <article class="publication-row">
     <a class="publication-teaser" href="https://zju3dv.github.io/ScaleNav/" target="_blank" rel="noopener noreferrer" aria-label="Open the ScaleNav project page">
       <img src="https://zju3dv.github.io/ScaleNav/assets/teaser.png" alt="ScaleNav transfers navigation priors learned from Internet videos to robot actions" loading="lazy">
       <span class="publication-badge">arXiv</span>

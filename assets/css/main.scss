@@ -55,6 +55,14 @@ strong,
   font-weight: 600;
 }
 
+// Keep the desktop shell fluid up to 1280px instead of jumping from
+// a 1280px container back to the theme's 925px default near the breakpoint.
+#main,
+.masthead__inner-wrap,
+.breadcrumbs {
+  max-width: $x-large;
+}
+
 // Keep only the three primary profile links beneath the avatar.
 .author-profile {
   text-align: center;
@@ -365,6 +373,10 @@ strong,
   }
 }
 
+.publication-teaser--diffsim img {
+  transform: translateY(0.35rem);
+}
+
 .publication-badge {
   position: absolute;
   top: 0.42rem;
@@ -393,8 +405,12 @@ strong,
   font-weight: 600;
   line-height: 1.2;
 
-  a {
+  a,
+  span {
     color: #043361;
+  }
+
+  a {
     text-decoration: none;
 
     &:hover {
